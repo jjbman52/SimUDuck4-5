@@ -15,7 +15,7 @@ public class RubberDuck implements Duck {
 	System.out.println("I'm a Rubber Duck");
     }
 
-    public QuackBehavior getQuackBehavior() {
+    public final QuackBehavior getQuackBehavior() {
         return quackBehavior;
     }
 

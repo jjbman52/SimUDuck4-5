@@ -15,7 +15,7 @@ public class MallardDuck implements Duck {
 	System.out.println("I'm a Mallard Duck");
     }
 
-    public QuackBehavior getQuackBehavior() {
+    public final QuackBehavior getQuackBehavior() {
         return quackBehavior;
     }
 
